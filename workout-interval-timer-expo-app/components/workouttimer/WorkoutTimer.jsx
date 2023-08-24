@@ -89,7 +89,7 @@ const WorkoutTimer = () => {
         value={presetName}
         onChangeText={text => setPresetName(text)}
       />
-      <Button title="Save Workout Time Intervals" onPress={savePreset} />
+      <Button title="Save Workout Intervals" onPress={savePreset} />
 
       {/* Utilizes a FlatList to display saved presets as buttons. Pressing a preset button sets the timers to the configuration saved in that preset. */}
       <FlatList
